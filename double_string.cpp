@@ -22,12 +22,11 @@ int main()
 {
 	//	example: change from string to double:
 	std::string str = "123.34";
-    double c = str2num(str);
-    std::cout << c << std::endl;
-    
-    //	example: change from double to string
-    double num = 12.123;
-    std::string str2 = num2str(num);
+ 	double c = str2num(str);
+ 	std::cout << c << std::endl;
+ 	//	example: change from double to string
+ 	double num = 12.123;
+ 	std::string str2 = num2str(num);
 	std::cout << str2 << std::endl;	 
 	return 0;
 }
