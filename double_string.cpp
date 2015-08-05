@@ -1,6 +1,5 @@
 #include <iostream>
 #include <sstream> 
-//using namespace std;
 
 // string change to double :
 double str2num(const std::string str){
