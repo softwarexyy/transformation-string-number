@@ -1,7 +1,7 @@
 #include <iostream>
 #include <sstream> 
 
-// string change to double :
+// transform string to double
 double str2num(const std::string str){
 	double numrslt;
 	std::istringstream istr(str);	//input a std::string type
@@ -9,7 +9,7 @@ double str2num(const std::string str){
 	return numrslt;
 }
 
-// double change to string :
+// transform double to string
 std::string num2str(double num){
 	std::string strrslt;
 	std::ostringstream ostr;
